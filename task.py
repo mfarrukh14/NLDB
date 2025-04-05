@@ -16,7 +16,7 @@ from PyQt5.QtGui import (
 )
 
 load_dotenv()
-groq_api_key = 'key'
+groq_api_key = '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'
 llm = ChatGroq(
     groq_api_key=groq_api_key,
     model_name="llama3-70b-8192",
